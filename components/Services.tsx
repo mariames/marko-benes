@@ -14,7 +14,7 @@ const services = [
 
 const Services: React.FC = () => {
   return (
-    <div className="grid grid-cols-3 gap-4 p-6">
+    <div className="grid grid-cols-3 gap-10 p-6">
       {services.map((service, index) => (
         <div
           key={index}
