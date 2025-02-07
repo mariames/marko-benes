@@ -6,7 +6,7 @@ const steps = [
   { 
     id: 1, 
     title: "Let's start a new project", 
-    subtitle: "We are honoured you are interested in working with us. Please fill out the project planner and we'll get back to you in a jiffy.",
+    subtitle: "We are honoured you are interested in working with us. Please fill out the project planner and we&apos;ll get back to you in a jiffy.",
     content: (
       <div>
         <label className="block text-left text-gray-700">Name or Company Name</label>
@@ -53,7 +53,7 @@ const steps = [
   { 
     id: 4, 
     title: "What's your budget?",
-    subtitle: "An honest budget will allow us to ensure expectations are met. Don't have an exact price? Guesstimate.",
+    subtitle: "An honest budget will allow us to ensure expectations are met. Don&apos;t have an exact price? Guesstimate.",
     content: (
       <div>
         <label className="block text-left text-gray-700">From</label>
