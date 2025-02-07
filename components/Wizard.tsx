@@ -5,7 +5,7 @@ import { useState } from 'react';
 const steps = [
   { 
     id: 1, 
-    title: "Let's start a new project", 
+    title: "Let&apos;s start a new project", 
     subtitle: "We are honoured you are interested in working with us. Please fill out the project planner and we&apos;ll get back to you in a jiffy.",
     content: (
       <div>
@@ -52,7 +52,7 @@ const steps = [
   },
   { 
     id: 4, 
-    title: "What's your budget?",
+    title: "What&apos;s your budget?",
     subtitle: "An honest budget will allow us to ensure expectations are met. Don&apos;t have an exact price? Guesstimate.",
     content: (
       <div>
@@ -88,7 +88,7 @@ const Wizard = () => {
     <div className="max-w-xl mx-auto text-center p-6">
       <h2 className="text-2xl font-bold">How It Works</h2>
       <p className="text-gray-600 my-4">
-        Embark on a journey to create your kid's dream room in five simple steps! Our dedicated team will guide you through every phase, ensuring a space that's fun and multifunctional.
+        
       </p>
       
       <div className="relative flex items-center justify-center my-6">
