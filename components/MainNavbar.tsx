@@ -33,14 +33,14 @@ export default function NavBar() {
             <div className="justify-between px-4 mx-auto md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                        <a href="/" onClick={handleItemClick} className="flex flex-row">
+                        <Link href="/" onClick={handleItemClick} className="flex flex-row">
                             <Image
                                 src="/logo.svg"
                                 width={200}
                                 height={50} 
                                 className=" object-contain"
                                 alt="Marko Benis" />
-                        </a>
+                        </Link>
                         <div className="md:hidden">
                             <button
                                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"

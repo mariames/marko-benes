@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 
 const steps = [
   { 
@@ -105,11 +104,6 @@ const Wizard = () => {
       </div>
 
       <div className="relative bg-white p-4 rounded-lg shadow-lg">
-        {/** 
-        <div className="relative w-full h-40">
-          <Image src="/images/step-image.png" alt="Step illustration" layout="fill" objectFit="contain" />
-        </div>
-        */}
         <h3 className="font-semibold text-3xl my-5">{steps[currentStep].title}</h3>
         <p className="text-gray-600 my-5">{steps[currentStep].subtitle}</p>
         <div className="text-gray-600">{steps[currentStep].content}</div>
